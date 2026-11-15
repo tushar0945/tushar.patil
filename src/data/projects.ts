@@ -1,0 +1,8 @@
+import type { Project } from "../types";
+
+export const projects: Project[] = [
+  { number:"01", slug:"cravita-hub", title:"Cravita-HUB", short:"HUB", category:"Enterprise platform", summary:"A multi-module business platform spanning CRM, HRMS, WhatsApp, billing and operations.", description:"An enterprise product where product design, frontend architecture, APIs, permissions and production reliability meet.", stack:["React","Node.js","PostgreSQL","Prisma","Redis","BullMQ","Meta APIs","RBAC"], year:"2026" },
+  { number:"02", slug:"quickbid", title:"QuickBid", short:"QB", category:"Real-time auction", summary:"A full-stack auction product focused on live bidding, backend state and user-facing reliability.", description:"A real-time marketplace experience built around bidding flows, event-driven updates and transactional consistency.", stack:["React","Node.js","MongoDB","WebSockets","Redis"], year:"2025–26" },
+  { number:"03", slug:"breezebnb", title:"BreezeBnB", short:"BB", category:"Booking platform", summary:"A marketplace-style booking application with listings, location features and media workflows.", description:"A MERN booking platform with maps, cloud media handling and authentication flows.", stack:["React","Node.js","MongoDB","Maps","Cloudinary"], year:"2025" },
+  { number:"04", slug:"formafit", title:"FormaFit", short:"FF", category:"Product system", summary:"A structured fitness management product built around relational data and maintainable APIs.", description:"A Next.js product using Prisma and PostgreSQL to model structured fitness workflows.", stack:["Next.js","Prisma","PostgreSQL"], year:"2026" }
+];

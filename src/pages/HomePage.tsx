@@ -6,7 +6,7 @@ import { ProjectCard } from "../components/work/ProjectCard";
 import { projects } from "../data/projects";
 import { experience } from "../data/experience";
 
-const profileImage = "https://github.com/tushar0945.png?size=1000";
+const profileImage = "/images/tushar-hero.webp";
 
 export function HomePage() {
   return (

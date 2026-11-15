@@ -159,7 +159,7 @@ function App() {
 
         <section id="contact" className="contact section-light">
           <div><span>05 / CONTACT</span><h2>LET’S BUILD<br />SOMETHING<br /><em>WORTH SHIPPING.</em></h2></div>
-          <div className="contact-right"><p>Open to full-stack engineering opportunities, product work and technology-driven collaborations.</p><a className="primary" href="mailto:tusharpatil.dev@gmail.com">Let's Talk <ArrowUpRight /></a><div className="socials"><a href="https://github.com/tushar0945" target="_blank" rel="noreferrer"><Github /></a><a href="https://www.linkedin.com" target="_blank" rel="noreferrer"><Linkedin /></a><a href="mailto:tusharpatil.dev@gmail.com"><Mail /></a></div></div>
+          <div className="contact-right"><p>Open to full-stack engineering opportunities, product work and technology-driven collaborations.</p><a className="primary" href="#contact">Let's Talk <ArrowUpRight /></a><div className="socials"><a href="https://github.com/tushar0945" target="_blank" rel="noreferrer"><Github /></a><a href="https://www.linkedin.com" target="_blank" rel="noreferrer"><Linkedin /></a><a href="#contact" aria-label="Contact"><Mail /></a></div></div>
         </section>
       </main>
       <footer>FULL-STACK DEVELOPER / TUSHAR PATIL <span>2026</span></footer>

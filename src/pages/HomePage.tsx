@@ -31,11 +31,6 @@ export function HomePage() {
                 I build reliable web products, APIs and production systems — from the first screen to the backend that keeps everything running.
               </p>
 
-              <div className="hero-modern__stack">
-                <span>FOCUS</span>
-                <p>React · TypeScript · Node.js · PostgreSQL · MongoDB · APIs · Integrations</p>
-              </div>
-
               <div className="hero-modern__actions">
                 <Link className="hero-modern__primary" to="/work">
                   View Work <ArrowUpRight size={18} />
@@ -59,6 +54,18 @@ export function HomePage() {
                   <span>Software Engineer</span>
                 </div>
               </div>
+            </div>
+          </div>
+
+          <div className="hero-modern__tech">
+            <span>TECH STACK</span>
+            <div className="hero-modern__tech-line" />
+            <div className="hero-modern__tech-items">
+              <b>React</b>
+              <b>Node.js</b>
+              <b>PostgreSQL</b>
+              <b>TypeScript</b>
+              <b>+3</b>
             </div>
           </div>
 

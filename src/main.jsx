@@ -80,11 +80,10 @@ function App() {
           </motion.div>
 
           <motion.div className="hero-portrait" style={{ y: heroY }}>
-            <div className="portrait-placeholder">
+            <div className="portrait-placeholder real-photo">
               <div className="portrait-glow" />
-              <div className="portrait-head" />
-              <div className="portrait-body" />
-              <div className="portrait-label">YOUR PHOTO<br /><small>replace /public/tushar.webp</small></div>
+              <img src="https://github.com/tushar0945.png" alt="Tushar Patil" />
+              <div className="portrait-label">TUSHAR PATIL<br /><small>FULL-STACK DEVELOPER</small></div>
             </div>
           </motion.div>
 
@@ -152,7 +151,7 @@ function App() {
         </section>
 
         <section id="about" className="about section-dark">
-          <div className="about-photo"><div className="portrait-placeholder small"><div className="portrait-glow" /><div className="portrait-head" /><div className="portrait-body" /></div></div>
+          <div className="about-photo"><div className="portrait-placeholder small real-photo"><div className="portrait-glow" /><img src="https://github.com/tushar0945.png" alt="Tushar Patil" /></div></div>
           <div className="about-copy"><span>04 / ABOUT</span><h2>A builder who cares about the <em>whole system.</em></h2></div>
           <div className="about-text"><p>I’m Tushar Patil, a Full-Stack Developer who likes to take ideas from 0 → production. I focus on scalable, maintainable and business-impacting systems, not just features.</p><div><span>📍 Pune, India</span><span>☕ Coffee + Code + Product</span></div></div>
         </section>

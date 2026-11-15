@@ -22,4 +22,4 @@ export const router = createBrowserRouter([
       { path: "*", element: <NotFoundPage /> }
     ]
   }
-], { basename: "/tushar.patil" });
+]);

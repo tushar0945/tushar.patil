@@ -39,10 +39,10 @@ img{max-width:100%;display:block}
 .hero-cta,.hero-github{display:inline-flex;align-items:center;gap:8px;padding-bottom:7px;font-weight:600;font-size:13px;border-bottom:1px solid var(--ink)}
 .hero-github{border-color:#bbb;color:#666}
 .hero-cta:hover,.hero-github:hover{color:var(--accent);border-color:var(--accent)}
-.hero-visual{width:100%;max-width:390px;justify-self:end}
-.portrait-frame{position:relative;aspect-ratio:4/5;overflow:hidden;background:#ddd;border-radius:2px}
-.portrait-frame img{width:100%;height:100%;object-fit:cover;object-position:center top;filter:grayscale(100%);transition:filter .4s,transform .5s}
-.portrait-frame:hover img{filter:grayscale(0%);transform:scale(1.02)}
+.hero-visual{width:100%;max-width:430px;justify-self:end;position:relative}
+.portrait-frame{position:relative;aspect-ratio:4/5;overflow:visible;background:transparent;border-radius:0;display:flex;align-items:flex-end;justify-content:center}
+.portrait-frame img{width:100%;height:auto;max-height:100%;object-fit:contain;object-position:center bottom;filter:none;mix-blend-mode:multiply;transition:transform .5s}
+.portrait-frame:hover img{transform:translateY(-5px) scale(1.015)}
 .portrait-meta{position:absolute;left:18px;right:18px;bottom:18px;display:flex;align-items:end;justify-content:space-between;color:#fff}
 .portrait-meta span{font:600 9px 'Space Grotesk';letter-spacing:.1em}
 .portrait-meta strong{font:700 15px/.9 'Space Grotesk';text-align:right;text-shadow:0 1px 8px #000}
@@ -136,8 +136,8 @@ img{max-width:100%;display:block}
   .hero-description{margin-top:25px}
   .hero-description p{font-size:14px}
   .hero-actions{margin-top:25px}
-  .hero-visual{width:min(100%,310px);align-self:flex-end}
-  .portrait-frame{aspect-ratio:4/5}
+  .hero-visual{width:min(100%,360px);align-self:center;margin-top:8px}
+  .portrait-frame{aspect-ratio:auto;min-height:360px}
   .hero-bottom{font-size:7px}
   .section{padding:88px 0}.section-head{display:grid;gap:18px}
   .project-card{grid-template-columns:1fr;gap:24px;padding:34px 0}
@@ -158,8 +158,8 @@ img{max-width:100%;display:block}
   .hero h1{font-size:21vw}
   .hero-intro{font-size:18px}
   .hero-actions{gap:20px}
-  .hero-visual{width:min(100%,280px);margin-top:4px}
-  .portrait-frame{border-radius:2px}
+  .hero-visual{width:min(100%,320px);margin-top:4px}
+  .portrait-frame{min-height:330px}
   .portrait-meta{left:14px;right:14px;bottom:14px}
   .hero-bottom{display:grid;gap:8px}
   .stats{grid-template-columns:1fr}

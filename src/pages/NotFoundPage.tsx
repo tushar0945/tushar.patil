@@ -1,0 +1,2 @@
+import { Link } from "react-router"; import { Container } from "../components/common/Container";
+export function NotFoundPage(){return <div className="page cream"><Container><span className="error">404</span><h1>Page not found.</h1><Link to="/">Back home ↗</Link></Container></div>}

@@ -1,0 +1,4 @@
+export const experience = [
+  { period:"APR 2026 — NOW", role:"Full-Stack Developer", company:"Cravita Technologies India Pvt Ltd", detail:"Building and maintaining Cravita-HUB across CRM, HRMS, WhatsApp, billing and platform infrastructure. Working across React, Node.js, Express, PostgreSQL, MongoDB, Redis/BullMQ, Meta APIs, RBAC and production operations." },
+  { period:"JUN 2025 — MAR 2026", role:"Software Development Intern", company:"Cravita Technologies India Pvt Ltd", detail:"Worked on production web applications, full-stack features, debugging, APIs and real project delivery while transitioning into full-time engineering ownership." }
+] as const;

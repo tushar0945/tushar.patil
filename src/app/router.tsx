@@ -9,6 +9,7 @@ import { ContactPage } from "../pages/ContactPage";
 import { NotFoundPage } from "../pages/NotFoundPage";
 
 export const router = createBrowserRouter([
+
   {
     element: <SiteLayout />,
     children: [
@@ -21,4 +22,4 @@ export const router = createBrowserRouter([
       { path: "*", element: <NotFoundPage /> }
     ]
   }
-]);
+], { basename: "/tushar.patil" });

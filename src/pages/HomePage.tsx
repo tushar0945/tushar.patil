@@ -14,23 +14,25 @@ export function HomePage() {
       <section className="hero">
         <Container className="hero-inner">
           <div className="hero-topline">
-            <span>TUSHAR PATIL</span>
-            <span>FULL-STACK DEVELOPER <i>·</i> PRODUCT ENGINEER</span>
-            <span>INDIA</span>
+            <span>FULL-STACK DEVELOPER</span>
+            <span>BASED IN INDIA <i>·</i> BUILDING FOR THE WEB</span>
           </div>
 
           <div className="hero-stage">
             <div className="hero-copy">
-              <p className="hero-intro">I build reliable web products, APIs and production systems.</p>
-              <h1><span>TUSHAR</span><em>PATIL</em></h1>
+              <p className="hero-kicker">SOFTWARE ENGINEER / PRODUCT BUILDER</p>
+              <h1><span>Tushar</span> <em>Patil.</em></h1>
+              <p className="hero-intro">
+                I build reliable web products, APIs and production systems — from the first screen to the backend that keeps everything running.
+              </p>
 
               <div className="hero-description">
-                <span>FULL-STACK DEVELOPER</span>
-                <p>React · Node.js · TypeScript · APIs · Databases · Integrations</p>
+                <span>FOCUS</span>
+                <p>React · TypeScript · Node.js · PostgreSQL · MongoDB · APIs · Integrations</p>
               </div>
 
               <div className="hero-actions">
-                <Link className="hero-cta" to="/work">View my work <ArrowUpRight size={17} /></Link>
+                <Link className="hero-cta" to="/work">View selected work <ArrowUpRight size={17} /></Link>
                 <a className="hero-github" href="https://github.com/tushar0945" target="_blank" rel="noreferrer">
                   <Github size={16} /> GitHub
                 </a>
@@ -41,16 +43,17 @@ export function HomePage() {
               <div className="portrait-frame">
                 <img src={profileImage} alt="Tushar Patil" />
                 <div className="portrait-meta">
-                  <span>01</span>
+                  <span>FULL-STACK / 2026</span>
                   <strong>TUSHAR<br />PATIL</strong>
                 </div>
               </div>
+              <span className="portrait-caption">01 — PORTRAIT</span>
             </div>
           </div>
 
           <div className="hero-bottom">
-            <span>BASED IN INDIA</span>
-            <span>AVAILABLE FOR INTERESTING WORK</span>
+            <span>OPEN TO INTERESTING ENGINEERING WORK</span>
+            <span>SCROLL TO EXPLORE ↓</span>
           </div>
         </Container>
       </section>

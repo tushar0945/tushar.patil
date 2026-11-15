@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/
+.npm/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# Build / coverage
+dist/
+build/
+.next/
+.nuxt/
+coverage/
+.out/
+.cache/
+.turbo/
+.vite/
+
+# Logs
+*.log
+logs/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp

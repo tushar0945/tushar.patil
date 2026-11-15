@@ -1,59 +1,71 @@
 import { Link } from "react-router";
-import { ArrowUpRight, Github } from "lucide-react";
+import { ArrowUpRight, Github, Code2 } from "lucide-react";
 import { Container } from "../components/common/Container";
 import { SectionLabel } from "../components/common/SectionLabel";
 import { ProjectCard } from "../components/work/ProjectCard";
 import { projects } from "../data/projects";
 import { experience } from "../data/experience";
 
-const profileImage = "/images/tushar-portrait.svg";
+const profileImage = "/images/file_00000000da0c8211923da5029eaf63e6.png";
 
 export function HomePage() {
   return (
     <>
-      <section className="hero">
-        <Container className="hero-inner">
-          <div className="hero-topline">
-            <span>FULL-STACK DEVELOPER</span>
-            <span>BASED IN INDIA <i>·</i> BUILDING FOR THE WEB</span>
+      <section className="hero hero-modern">
+        <Container className="hero-modern__inner">
+          <div className="hero-modern__top">
+            <span className="hero-modern__role"><i /> FULL-STACK DEVELOPER</span>
+            <span className="hero-modern__availability">AVAILABLE FOR SELECT PROJECTS</span>
           </div>
 
-          <div className="hero-stage">
-            <div className="hero-copy">
-              <p className="hero-kicker">SOFTWARE ENGINEER / PRODUCT BUILDER</p>
-              <h1><span>Tushar</span> <em>Patil.</em></h1>
-              <p className="hero-intro">
+          <div className="hero-modern__main">
+            <div className="hero-modern__copy">
+              <p className="hero-modern__eyebrow">SOFTWARE ENGINEER / PRODUCT BUILDER</p>
+
+              <h1>
+                <span>Tushar</span>
+                <strong>Patil<span>.</span></strong>
+              </h1>
+
+              <p className="hero-modern__intro">
                 I build reliable web products, APIs and production systems — from the first screen to the backend that keeps everything running.
               </p>
 
-              <div className="hero-description">
+              <div className="hero-modern__stack">
                 <span>FOCUS</span>
                 <p>React · TypeScript · Node.js · PostgreSQL · MongoDB · APIs · Integrations</p>
               </div>
 
-              <div className="hero-actions">
-                <Link className="hero-cta" to="/work">View selected work <ArrowUpRight size={17} /></Link>
-                <a className="hero-github" href="https://github.com/tushar0945" target="_blank" rel="noreferrer">
-                  <Github size={16} /> GitHub
+              <div className="hero-modern__actions">
+                <Link className="hero-modern__primary" to="/work">
+                  View Work <ArrowUpRight size={18} />
+                </Link>
+                <a className="hero-modern__secondary" href="https://github.com/tushar0945" target="_blank" rel="noreferrer">
+                  <Github size={19} /> GitHub
                 </a>
               </div>
             </div>
 
-            <div className="hero-visual">
-              <div className="portrait-frame">
-                <img src={profileImage} alt="Tushar Patil" />
-                <div className="portrait-meta">
-                  <span>FULL-STACK / 2026</span>
-                  <strong>TUSHAR<br />PATIL</strong>
+            <div className="hero-modern__visual">
+              <div className="hero-modern__shape" aria-hidden="true" />
+              <div className="hero-modern__photo">
+                <img src={profileImage} alt="Tushar Patil — Full-Stack Developer" />
+              </div>
+
+              <div className="hero-modern__card">
+                <div className="hero-modern__card-icon"><Code2 size={21} /></div>
+                <div>
+                  <strong>Tushar Patil</strong>
+                  <span>Software Engineer</span>
                 </div>
               </div>
-              <span className="portrait-caption">01 — PORTRAIT</span>
             </div>
           </div>
 
-          <div className="hero-bottom">
-            <span>OPEN TO INTERESTING ENGINEERING WORK</span>
-            <span>SCROLL TO EXPLORE ↓</span>
+          <div className="hero-modern__bottom">
+            <span>BASED IN INDIA</span>
+            <span>REACT · NODE.JS · APIS · DATABASES</span>
+            <span>SCROLL ↓</span>
           </div>
         </Container>
       </section>

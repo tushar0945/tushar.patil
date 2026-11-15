@@ -26,7 +26,7 @@ img{max-width:100%;display:block}
 .hero-topline,.hero-bottom{display:flex;justify-content:space-between;font:600 10px 'Space Grotesk';letter-spacing:.14em;color:#858585}
 .hero-topline{padding:20px 0;border-bottom:1px solid var(--line)}
 .hero-topline i{font-style:normal;color:var(--accent);margin:0 7px}
-.hero-stage{flex:1;display:grid;grid-template-columns:minmax(0,1fr) 390px;align-items:center;gap:clamp(50px,9vw,150px);padding:70px 0}
+.hero-stage{flex:1;display:grid;grid-template-columns:minmax(0,1fr) 430px;align-items:center;gap:clamp(40px,7vw,110px);padding:58px 0 45px}
 .hero-copy{max-width:720px}
 .hero-kicker{font:600 11px 'Space Grotesk';letter-spacing:.16em;color:#777;margin:0 0 30px}
 .hero h1{font:700 clamp(78px,10vw,145px)/.83 'Space Grotesk';letter-spacing:-.09em;margin:0}
@@ -40,10 +40,10 @@ img{max-width:100%;display:block}
 .hero-github{border-color:#bbb;color:#666}
 .hero-cta:hover,.hero-github:hover{color:var(--accent);border-color:var(--accent)}
 .hero-visual{width:100%;max-width:430px;justify-self:end;position:relative}
-.portrait-frame{position:relative;aspect-ratio:4/5;overflow:visible;background:transparent;border-radius:0;display:flex;align-items:flex-end;justify-content:center}
-.portrait-frame img{width:100%;height:auto;max-height:100%;object-fit:contain;object-position:center bottom;filter:none;mix-blend-mode:multiply;transition:transform .5s}
-.portrait-frame:hover img{transform:translateY(-5px) scale(1.015)}
-.portrait-meta{position:absolute;left:18px;right:18px;bottom:18px;display:flex;align-items:end;justify-content:space-between;color:#fff}
+.portrait-frame{position:relative;aspect-ratio:320/368;overflow:visible;background:transparent;border-radius:0;display:flex;align-items:flex-end;justify-content:center}
+.portrait-frame img{width:100%;height:auto;max-height:none;object-fit:contain;object-position:center bottom;filter:none;mix-blend-mode:normal;transition:transform .5s}
+.portrait-frame:hover img{transform:translateY(-6px) scale(1.012)}
+.portrait-meta{position:absolute;left:12px;right:12px;bottom:8px;display:flex;align-items:end;justify-content:space-between;color:#fff}
 .portrait-meta span{font:600 9px 'Space Grotesk';letter-spacing:.1em}
 .portrait-meta strong{font:700 15px/.9 'Space Grotesk';text-align:right;text-shadow:0 1px 8px #000}
 .portrait-caption{display:block;text-align:right;margin-top:9px;font:600 9px 'Space Grotesk';letter-spacing:.13em;color:#999}
@@ -136,8 +136,8 @@ img{max-width:100%;display:block}
   .hero-description{margin-top:25px}
   .hero-description p{font-size:14px}
   .hero-actions{margin-top:25px}
-  .hero-visual{width:min(100%,360px);align-self:center;margin-top:8px}
-  .portrait-frame{aspect-ratio:auto;min-height:360px}
+  .hero-visual{width:min(100%,330px);align-self:center;margin-top:0}
+  .portrait-frame{aspect-ratio:320/368;min-height:0}
   .hero-bottom{font-size:7px}
   .section{padding:88px 0}.section-head{display:grid;gap:18px}
   .project-card{grid-template-columns:1fr;gap:24px;padding:34px 0}
@@ -158,7 +158,7 @@ img{max-width:100%;display:block}
   .hero h1{font-size:21vw}
   .hero-intro{font-size:18px}
   .hero-actions{gap:20px}
-  .hero-visual{width:min(100%,320px);margin-top:4px}
+  .hero-visual{width:min(100%,300px);margin-top:0}
   .portrait-frame{min-height:330px}
   .portrait-meta{left:14px;right:14px;bottom:14px}
   .hero-bottom{display:grid;gap:8px}

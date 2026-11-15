@@ -1,1 +1,11 @@
-:root{--orange:#ff4b17;--black:#090b0d;--cream:#f1eee7;--paper:#f7f5ef;--ink:#111315;--muted:#777;--line:#d7d2c8;--container:1280px}
+:root{
+  --accent:#e85d3f;
+  --black:#111111;
+  --white:#ffffff;
+  --paper:#f7f6f2;
+  --cream:#efeee9;
+  --ink:#161616;
+  --muted:#737373;
+  --line:#deddd8;
+  --container:1180px;
+}
